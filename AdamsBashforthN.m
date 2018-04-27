@@ -1,4 +1,13 @@
-% Adams-Bashforth methods
+% Adams-Bashforth methods for 1-5 steps
+%
+% AdamsBashforthN.m takes a function f(t,y) = y', the current time t, an
+% array of previous approximations wbuf, and a time-step h. Based on the
+% size of the array, the program automatically determines which Adams
+% Bashforth method to use, and returns the next time and the determined
+% w value. If wbuf is not an appropriate size (empty or >5), the program
+% will notify the user.
+%
+% (c) Adam Kagel 2018
 function [t,w_next] = AdamsBashforthN(f,t,wbuf,h)
     Nsteps = size(wbuf,1);
     switch Nsteps
