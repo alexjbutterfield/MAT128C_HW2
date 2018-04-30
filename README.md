@@ -14,7 +14,7 @@ Problem 2. 5.5.6a     Alex                Yes             Yes
            5.6.13b
            5.6.16a    Leigh               Yes             Yes
            5.6.16b
-Problem 3. 5.7.2b     
+Problem 3. 5.7.2b     Alex
            5.7.7
 Problem 4. 5.8.2d     
 Problem 5. 5.9.2a
