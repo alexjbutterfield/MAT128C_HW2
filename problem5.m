@@ -42,19 +42,17 @@ for i = 1:5
    end
    title(['Log10(error) for tolerance ',num2str(opts(i).RelTol)]);
    legend('ode23','ode45','ode113');
-   hold off;
+   saveas(gcf,['problem5figure' num2str(i) '.png']);
 end
 
 figure(6)
-hold on;
 bar(categorical(-log10(abs([opts(1:5).RelTol]))), tsizes);
 title('Steps to converge');
 legend('ode23','ode45','ode113');
-hold off;
+saveas(gcf,'problem5figure6.png');
 
 figure(7)
-hold on;
 bar(categorical(-log10(abs([opts(1:5).RelTol]))), comptimes);
 title('Computation time');
 legend('ode23','ode45','ode113');
-hold off;
+saveas(gcf,'problem5figure7.png');
