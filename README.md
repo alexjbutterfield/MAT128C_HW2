@@ -5,7 +5,7 @@ LaTeX document is shared at Overleaf.com
 https://www.overleaf.com/15777563wyrcppxygtvz
 Question #            Working on          Complete        LaTeX
 
-Problem 1. 5.5.2      Adam                Yes             No
+Problem 1. 5.5.2      Adam                Yes             Yes
 Problem 2. 5.5.6a     Alex                Yes             Yes
            5.6.16a    Leigh               Yes             Yes
            5.6.16b    Leigh               Yes             Yes
