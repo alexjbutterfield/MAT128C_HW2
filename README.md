@@ -8,7 +8,7 @@ Question #            Working on          Complete        LaTeX
 Problem 1. 5.5.2      Adam                Yes             No
 Problem 2. 5.5.6a     Alex                Yes             Yes
            5.6.16a    Leigh               Yes             Yes
-           5.6.16b
+           5.6.16b    Leigh               Yes             Yes
 Problem 3. 5.7.2b     Alex                Yes             Yes
            5.7.7      Alex                Yes             Yes    
 Problem 4. 5.9.2a
