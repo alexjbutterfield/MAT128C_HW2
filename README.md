@@ -2,8 +2,7 @@
 MAT 128C Homework 2
 
 LaTeX document is shared at Overleaf.com
-https://www.overleaf.com/15777563wyrcppxygtvz#/60048450/
-
+https://www.overleaf.com/15777563wyrcppxygtvz
 Question #            Working on          Complete        LaTeX
 
 Problem 1. 5.5.2      Adam                Yes             No
