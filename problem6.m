@@ -58,3 +58,15 @@ plot(t8_low,h8_low);
 hold on
 plot(t8(:,2),h8(:,2));
 hold off
+
+% calculate errors
+sol = @(t) 100./((t-2).^4 + 1);
+err8_low = abs(sol(t8_low) - y8_low);
+err8 = abs(sol(t8(:,2)) - y8(:,2));
+
+% plot log10(error)
+figure(3)
+plot(t8_low, log10(err8_low));
+hold on
+plot(t8(:,2),log10(err8));
+hold off
