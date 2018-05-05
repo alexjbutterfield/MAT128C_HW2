@@ -45,11 +45,16 @@ t8_low = t8(1:668,1);
 y8_low = y8(1:668,1);
 h8_low = h8(1:668,1);
 
+sol = @(t) 100./((t-2).^4 + 1);
+
 % plot _low tolerance solution versus high tolerance solution
 figure(1)
 plot(t8_low,y8_low);
 hold on
 plot(t8(:,2),y8(:,2));
+plot(t8(:,2),sol(t8(:,2)));
+legend('tol = 10^{-7}','tol = 10^{-11}','solution')
+title('RKF approximations and true solution'); xlabel('t'); ylabel('y(t)');
 hold off
 
 % plot _low tolerance steps versus high tolerance steps
@@ -57,10 +62,11 @@ figure(2)
 plot(t8_low,h8_low);
 hold on
 plot(t8(:,2),h8(:,2));
+legend('tol = 10^{-7}','tol = 10^{-11}')
+title('Step size at time t for both tolerances'); xlabel('t'); ylabel('h');
 hold off
 
 % calculate errors
-sol = @(t) 100./((t-2).^4 + 1);
 err8_low = abs(sol(t8_low) - y8_low);
 err8 = abs(sol(t8(:,2)) - y8(:,2));
 
@@ -69,4 +75,6 @@ figure(3)
 plot(t8_low, log10(err8_low));
 hold on
 plot(t8(:,2),log10(err8));
+legend('tol = 10^{-7}','tol = 10^{-11}')
+title('Log10(absolute error) for both tolerances'); xlabel('t'); ylabel('error');
 hold off

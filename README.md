@@ -11,13 +11,13 @@ Problem 2. 5.5.6a     Alex                Yes             Yes
            5.6.16b    Leigh               Yes             Yes
 Problem 3. 5.7.2b     Alex                Yes             Yes
            5.7.7      Alex                Yes             Yes    
-Problem 4. 5.9.2a
-           5.9.2b
-           5.9.2c
-           5.9.2d
-           5.9.D1
+Problem 4. 5.9.2a     N/A                 Yes             Yes
+           5.9.2b     N/A                 Yes             Yes
+           5.9.2c     N/A                 Yes             Yes
+           5.9.2d     N/A                 Yes             Yes
+           5.9.D1                         No              No
 Problem 5. a          Adam                Yes             No
            b          Adam                Yes             No
            c          Adam                Yes             No
-Problem 6. a          Adam                Yes             No
-           b          Adam                Yes             No
+Problem 6. a          Adam                Yes             Yes
+           b          Adam                Yes             Yes
