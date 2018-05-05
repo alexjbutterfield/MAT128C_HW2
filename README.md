@@ -15,9 +15,9 @@ Problem 4. 5.9.2a     N/A                 Yes             Yes
            5.9.2b     N/A                 Yes             Yes
            5.9.2c     N/A                 Yes             Yes
            5.9.2d     N/A                 Yes             Yes
-           5.9.D1                         No              No
-Problem 5. a          Adam                Yes             No
-           b          Adam                Yes             No
-           c          Adam                Yes             No
+           5.9.D1     Alex                Yes             Yes
+Problem 5. a          Adam                Yes             Yes
+           b          Adam                Yes             Yes
+           c          Adam                Yes             Yes
 Problem 6. a          Adam                Yes             Yes
            b          Adam                Yes             Yes
